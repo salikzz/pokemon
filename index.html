@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuevos Pokémon</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        body {  
+            background: linear-gradient(1000deg, #bdf4ff, #1ebfff);
+        }
+        audio{ 
+            width: 100%;
+            margin-top: 10px;
+        }
+        h1 {
+            text-align: center;
+            padding: 20px;
+            background: linear-gradient(1000deg, #bdf4ff, #1ebfff);
+            color: white
+        }
+        ul {
+            list-style: none;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        li {
+            background: white;
+            border: 2px solid black;
+            text-align: center;
+            padding: 15px;
+            transition: transform 0.3s ease;
+        }
+        li:hover {
+            transform: scale(1.10);
+        }
+        h2 {
+            color: black;
+        }
+        img {
+            border: 2px solid black;
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="caja1">
+        <h1>Pokémon chéveres</h1>
+    </div>
+    
+    <ul>
+        <li class="Arceus">
+            <h2>Arceus</h2>
+            <img src="Pokemon/Arceus.webp" alt="Arceus">
+            <audio src="Pokemon/arceus sound.mp3" controls></audio>
+        </li>
+        <li class="Rayquaza">
+            <h2>Rayquaza</h2>
+            <img src="Pokemon/rayquaza.png" alt="Rayquaza">
+            <audio src="Pokemon/rayquaza sound.mp3" controls></audio>
+        </li>
+        <li class="Lugia">
+            <h2>Lugia</h2>
+            <img src="Pokemon/Lugia.webp" alt="Lugia">
+            <audio src="Pokemon/lugia sound.mp3" controls></audio>
+        </li>
+        <li class="Gyarados">
+            <h2>Gyarados</h2>
+            <img src="Pokemon/Gyarados.webp" alt="Gyarados">
+            <audio src="Pokemon/gyarados sound.mp3" controls></audio>
+        </li>
+        <li class="Haxorus">
+            <h2>Haxorus</h2>
+            <img src="Pokemon/Haxorus.png" alt="Haxorus">
+            <audio src="Pokemon/haxorus sound.mp3" controls></audio>
+        </li>
+    </ul>
+</body>
+</html>
